@@ -1,0 +1,39 @@
+.project_box {
+    position: relative;
+    width: 8vmax;
+    height: 8vmax;
+    background-color: #00308F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #F0F8FF;
+    border: #F0F8FF 2px solid;
+}
+
+.project_box h1 {
+    font-size: 1vmax;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 6px;
+}
+
+.project_box>.link_vert,
+.project_box>.link_horiz {
+    position: absolute;
+    background-color: #F0F8FF;
+}
+
+.project_box>.link_vert {
+    margin-left: 13vmax;
+    width: 5vmax;
+    height: 2px;
+}
+
+.project_box>.link_horiz {
+    width: 2px;
+    height: 5vmax;
+    margin-top: 13vmax;
+}

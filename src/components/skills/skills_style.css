@@ -1,0 +1,25 @@
+.skills_container {
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills_container>.skills svg {
+    width: 10vmax;
+    height: 10vmax;
+    color: #72A0C1;
+    transition: all 0.5s ease-in-out;
+}
+
+.skills_container>.skills svg:hover {
+    color: #0a75c2;
+}

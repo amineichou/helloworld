@@ -1,0 +1,17 @@
+.projects_container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 4.8vmax;
+    padding: 20px;
+}

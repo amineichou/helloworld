@@ -1,0 +1,19 @@
+.contact {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.contact>a {
+    color: #F0F8FF;
+    transition: all 0.2s ease-in;
+}
+
+.contact>a svg{
+    width: 3vmax;
+    height: 3vmax;
+}
+
+.contact>a:hover {
+    color: #00308F;
+}

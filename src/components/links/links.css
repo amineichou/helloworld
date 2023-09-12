@@ -1,0 +1,32 @@
+.links_container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    top: 0;
+    left: 0;
+    padding: 22px 20px;
+}
+
+.links_container .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    font-size: 10px;
+    color: #F0F8FF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+@media screen and (max-width: 500px)
+{
+    .links_container .circle {
+        width: 32px;
+        height: 32px;
+        font-size: 6px;
+    }
+}
