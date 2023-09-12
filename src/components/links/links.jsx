@@ -7,7 +7,7 @@ const Links = () => {
 
     return (
         <div className="links_container">
-            <Link to={"/helloworld"} className="circle" style={{ backgroundColor: filename === "helloworld/" ? "red" : "#fff", color: filename === "helloworld/" ? "#fff" : "#000" }}>home
+            <Link to={"/helloworld/"} className="circle" style={{ backgroundColor: filename === "helloworld/" ? "red" : "#fff", color: filename === "helloworld/" ? "#fff" : "#000" }}>home
             </Link>
             <Link to={"/about"} className="circle" style={{ backgroundColor: filename === "about" ? "red" : "#fff" , color: filename === "about" ? "#fff" : "#000"}}>about
             </Link>
