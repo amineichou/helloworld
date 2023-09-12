@@ -597,7 +597,7 @@ const particlesConfig = {
                 type: "images",
                 options: {
                     images: {
-                        src: "../asets/cyan_amongus.png",
+                        src: "./asets/cyan_amongus.png",
                         width: 500,
                         height: 634
                     }
